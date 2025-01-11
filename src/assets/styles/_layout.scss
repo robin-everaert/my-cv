@@ -1,0 +1,46 @@
+
+// Header 
+#header {
+    color: #ececec;
+    .settings-container {
+        top: 0em;
+        right: 1em;
+            button {
+                background: none;
+                border: none;   
+                color: #ececec;
+            }
+    }
+    .language-selector-container {
+        button {
+            font-size: 2rem;
+        }
+    }
+    .change-theme-btn {
+        button {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.main {
+    background: var(--k__bg-color);
+    color: var(--k__text-color);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+// Footer
+#footer {
+
+    i {
+        font-size: 30px;
+        transition: all .3s;
+        &:hover {
+            transform: scale(1.2);
+            transition: all .3s;
+        }
+    }
+}

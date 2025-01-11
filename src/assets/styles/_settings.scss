@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+$k__primary-font: 'Ubuntu', sans-serif;
+
+body, header, main, footer {
+    font-family: $k__primary-font !important;
+}
+h1, h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+p {
+    font-size: 1.2rem;
+}
+.text-justify {
+    text-align: justify;
+}

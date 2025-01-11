@@ -1,0 +1,29 @@
+{
+    "en": {
+      "header": {
+        "nav": {
+          "home": "Home",
+          "about": "About",
+          "contact": "Contact"
+        }
+      },
+      "footer": {
+        "copyright": "My CV. All rights reserved.",
+        "contact": "Contact Us"
+      }
+    },
+    "fr": {
+      "header": {
+        "nav": {
+          "home": "Accueil",
+          "about": "À propos",
+          "contact": "Contact"
+        }
+      },
+      "footer": {
+        "copyright": "Mon CV. Tous droits réservés.",
+        "contact": "Nous Contacter"
+      }
+    }
+  }
+  
