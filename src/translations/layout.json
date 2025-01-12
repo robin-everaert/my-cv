@@ -1,6 +1,7 @@
 {
     "en": {
       "header": {
+        "job": "Front End Developer",
         "nav": {
           "home": "Home",
           "about": "About",
@@ -8,12 +9,13 @@
         }
       },
       "footer": {
-        "copyright": "My CV. All rights reserved.",
+        "copyright": "Everaert Robin. All rights reserved.",
         "contact": "Contact Us"
       }
     },
     "fr": {
       "header": {
+        "job": "Développeur Front End",
         "nav": {
           "home": "Accueil",
           "about": "À propos",
@@ -21,7 +23,7 @@
         }
       },
       "footer": {
-        "copyright": "Mon CV. Tous droits réservés.",
+        "copyright": "Everaert Robin. Tous droits réservés.",
         "contact": "Nous Contacter"
       }
     }

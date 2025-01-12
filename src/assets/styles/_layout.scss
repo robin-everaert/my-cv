@@ -1,44 +1,86 @@
-
 // Header 
 #header {
-    color: #ececec;
+    .sitebar-container, .navbar-container {
+        background: var(--k__second-bg-color);
+    }
+    h1, h2, p, a, button, span{
+        color: var(--k__text-color);
+        text-decoration: none;
+    }
+    a:hover { 
+         color: var(--k__primary-color);
+    }
+    .sitebar-container {
+        
+        a {
+            font-size: 1.2rem;
+        }
+    }
     .settings-container {
-        top: 0em;
-        right: 1em;
+        font-size: 1.2rem;
             button {
+                padding-right: 0;
                 background: none;
                 border: none;   
-                color: #ececec;
             }
     }
     .language-selector-container {
-        button {
-            font-size: 2rem;
+        img {
+            height: 30px;
         }
     }
     .change-theme-btn {
-        button {
+        border-radius: 200px;
+        background: var(--k__text-color) !important;
+        width: 30px;
+        height: 30px;
+    }
+    .title-container {
+        background: var(--k__primary-bg-color);
+
+        h1 {
+            font-size: 1.8rem;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+    }
+    .navbar-container {
+        
+        a {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            padding: 0 1rem;
+        }
+        .active {
+            color: var(--k__primary-color);
+        }
+        span {
             font-size: 1.2rem;
         }
     }
 }
 
 .main {
-    background: var(--k__bg-color);
+    background: var(--k__primary-bg-color);
     color: var(--k__text-color);
-    height: 80vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 // Footer
 #footer {
-
+    background: var(--k__second-bg-color);
+    color: var(--k__text-color);
     i {
+        color: var(--k__text-color);
         font-size: 30px;
         transition: all .3s;
         &:hover {
+            color: var(--k__primary-color);
             transform: scale(1.2);
             transition: all .3s;
         }
