@@ -2,18 +2,26 @@
     <nav class="navbar-container d-flex justify-content-center pt-3 pb-3">
       <router-link
         to="/"
-        class="header-link nav-link"
+        class="header-link"
         :class="{ active: isActive('/') }"
       >
         {{ $t('header.nav.home') }}
       </router-link>
-      <span> | </span>
+      <span> - </span>
       <router-link
         to="/solar"
-        class="header-link nav-link"
-        :class="{ active: isActive('/solar') }"
+        class="header-link"
+        :class="{ active: isActive('/e') }"
       >
-        {{ $t('header.nav.about') }}
+        {{ $t('header.nav.personnal_project') }}
+      </router-link>
+      <span> - </span>
+      <router-link
+        to="/solar"
+        class="header-link"
+        :class="{ active: isActive('/p') }"
+      >
+        {{ $t('header.nav.work_project') }}
       </router-link>
     </nav>
   </template>

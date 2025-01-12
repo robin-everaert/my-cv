@@ -4,8 +4,8 @@
         "job": "Front End Developer",
         "nav": {
           "home": "Home",
-          "about": "About",
-          "contact": "Contact"
+          "personnal_project": "Personal Projects",
+          "work_project": "Professional portfolio"
         }
       },
       "footer": {
@@ -18,8 +18,8 @@
         "job": "Développeur Front End",
         "nav": {
           "home": "Accueil",
-          "about": "À propos",
-          "contact": "Contact"
+          "personnal_project": "Projet personnels",
+          "work_project": "Portfolio professionnel"
         }
       },
       "footer": {
