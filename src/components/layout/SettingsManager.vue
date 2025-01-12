@@ -1,12 +1,15 @@
 <template>
-    <div class="settings-container d-flex justify-content-center align-items-center position-absolute">
+    <div class="settings-container d-flex justify-content-center align-items-center">
         <div class="language-selector-container">
-            <button v-if="locale === 'en'" @click="changeLanguage('fr')">🇫🇷</button>
-            <button v-if="locale === 'fr'" @click="changeLanguage('en')">🇬🇧</button>
+            <button v-if="locale === 'en'" @click="changeLanguage('fr')" class="p-0">
+                <img src="@/assets/images/flag-fr.png" class="img-fluid" alt="Flag FR" />
+            </button>
+            <button v-if="locale === 'fr'" @click="changeLanguage('en')" class="p-0">
+                <img src="@/assets/images/flag-en.png" class="img-fluid" alt="Flag EN" />
+            </button>
         </div>
-        <button class="change-theme-btn"
+        <button class="change-theme-btn ms-2"
         @click="toggleTheme">
-            {{ currentTheme === 'dark' ? 'Light Mode' : 'Dark Mode' }}
         </button>
     </div>
 </template>
