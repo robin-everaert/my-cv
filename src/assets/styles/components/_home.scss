@@ -1,0 +1,23 @@
+#home-main {
+    padding-bottom: 5em;
+    .presentation-content {
+        p {
+            text-align: justify;
+        }
+    }
+    .download-cv-container {
+        margin: 2em 0;
+        a {
+            background: var(--k__second-bg-color);
+            color: var(--k__txt-color);
+            font-size: 1.2rem;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 8px;
+            &:hover {
+                background: var(--k__primary-color);
+                color: var(--k__white);
+            }
+        }
+    }
+}

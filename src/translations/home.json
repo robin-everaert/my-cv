@@ -1,12 +1,24 @@
 {
     "en": {
         "home": {
-            "title": "Hello"
+            "title": "About me",
+            "presentation": {
+                "p1": "As a front-end developer, I have been working for several years with JavaScript and specialize in customizing Shopify stores using Liquid. I enjoy combining Vue.js with my components, as I believe this framework perfectly complements Shopify's technical architecture and allows for more dynamic and modern interfaces.",
+                "p2": "I am also experienced in working on systems developed in JavaScript ES6/ES7 or with frameworks like React and Vue.js. Accustomed to teamwork, I use tools like Git daily to collaborate effectively and ensure smooth project management.",
+                "p3": "Currently working at 60%, I am fully committed to my tasks and enjoy the variety of projects entrusted to me. However, I am available to expand my activity by collaborating on new projects where I can leverage my experience, flexibility, and responsiveness to meet your needs effectively."
+            },
+            "download_cv": "Download my C.V"
         }
     },
     "fr": {
         "home": {
-            "title": "Bonjour"
+            "title": "À propos de moi",
+            "presentation": {
+                "p1": "Développeur front-end, je travaille depuis plusieurs années en JavaScript et suis spécialisé dans la personnalisation des boutiques Shopify via Liquid. J'aime associer Vue.js à mes composants, car ce framework complète parfaitement l'architecture technique de Shopify selon moi et permet de proposer des interfaces plus dynamiques et modernes.",
+                "p2": "Je suis également expérimenté pour intervenir sur vos systèmes développés en JavaScript ES6/ES7 ou avec des frameworks comme React et Vue.js. Habitué au travail en équipe, j'utilise quotidiennement des outils comme Git pour collaborer efficacement et garantir une gestion de projet fluide.",
+                "p3": "Actuellement en poste à 60 %, je suis pleinement investi dans mes missions et apprécie la diversité des projets qui me sont confiés. Je suis cependant disponible pour élargir mon activité en collaborant sur de nouveaux projets, où je pourrai mettre à profit mon expérience, ma flexibilité et ma réactivité pour répondre efficacement à vos besoins."
+            },
+            "download_cv": "Télécharger mon C.V"
         }
     }
 }
