@@ -20,4 +20,37 @@
             }
         }
     }
+    .skills-container {
+        
+        .k__card {
+            background: var(--k__primary-bg-color);
+            border: none;
+            box-shadow: 0 0 8px 0 var(--k__second-bg-color);
+            color: var(--k__txt-color);
+        }
+        .logo-container {
+            img {
+            width: 100px;
+            }
+            span {
+                font-size: 1.4rem;
+            }
+        }
+        .skill-bar-container {
+            width: 120px; 
+            height: 8px; 
+            background-color: var(--k__second-bg-color);
+            border-radius: 8px; 
+            display: block;
+            .skill-bar {
+                display: block;
+                background: var(--k__primary-color);
+                height: 8px;
+            }
+          }
+        .skill-btn {
+            background: var(--k__primary-color);
+            color: var(--k__white);
+        }
+    }
 }

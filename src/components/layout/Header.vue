@@ -18,12 +18,7 @@
             <h1>Everaert Robin</h1>
             <h2>{{ $t('header.job') }}</h2>
         </div>
-
-        
-  
-      
-        <NavBar />
-         
+        <NavBar />   
     </header>
   </template>
   
